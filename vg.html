@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vg.css">
+    <title>VanGogh</title>
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+</head>
+<body>
+    <button type="submit" onclick="document.location='homepage.html'" id="back">
+        <p>back</p>
+    </button>
+
+    <h1>Van Gogh & Tainted love</h1>
+
+    <div class="topPart">
+        <div id="videoVG">
+            <video src="imgs/vangoghfinal.mp4" id="video" ></video>
+        </div>
+        <div class="rightPart">
+            
+            <div class="container">
+                <div id="phraseContainer">Karaoke</div>
+                <div id="nextContainer">Next Phrase</div>
+            </div>
+
+            <div id="Spectrum"></div>
+            <div id="SpectrumMirror"></div>
+
+
+        </div>
+    </div>
+    <div class="prog">
+        <div id="progress-bar">
+            <div id="progress"></div>
+        </div>
+    </div>
+    <div id="videoControls">
+		<button id="playPauseButton" onclick="toggleKaraoke()">play</button>
+		<button id="muteUnmuteButton">mute</button>
+	</div>
+
+    
+    <script src="vg.js"></script>
+    <script src="sketch2.js"></script>
+
+    
+</body>
+</html>

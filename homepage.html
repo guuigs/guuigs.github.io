@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtSing</title>
+    <link rel="stylesheet" href="homepage.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+</head>
+
+<body>
+    <h1>ArtSing</h1>
+    <div class="arrow">
+        <p class="choose">Choose your song</p>
+        <p class="arr">></p>
+    </div>
+
+    <div class="paints">
+        <button type="submit" onclick="document.location='vg.html'">
+            <img class="imgVanGogh" src="imgs/van gogh.png" alt="buttonpng" border="0" />
+            <div class="textVanGogh">Portret van de kunstenaar & Tainted love</div>
+        </button>
+
+        <button type="submit" onclick="document.location='joconde.html'">
+                <img class="imgMona" src="imgs/Monalisa.jpeg" alt="buttonpng" border="0" />
+                <div class="textMona">La Joconde & Sunny </div>
+        </button>
+
+        <button type="submit" onclick="document.location='chopin.html'">
+            <img class="imgLouis" src="imgs/chopin.png" alt="buttonpng" border="0" />
+            <div class="textLouis">Chopin & Un peu de haine</div>
+        </button>
+    </div>
+
+    <script src="sketch.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@1,600&display=swap');
+
+body {
+    background-image:url("imgs/rolland.jpeg");
+    background-size: cover;
+    cursor: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Désactiver les interactions pour le canvas */
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20vw;
+    margin-top: 15vh;
+    font-family: 'Abril Fatface';
+    font-weight: 200;
+    
+}
+
+.arrow {
+    text-align: center;
+    margin-top: -4vh;
+}
+
+.arr {
+    transform: rotate(90deg);
+    font-weight: 900;
+    font-size: 4vh;
+    margin-top: -2vh;
+}
+
+.choose {
+    font-weight: 400;
+    font-size: 5vh;
+    font-family: 'Playfair Display'
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  margin-left:10px;
+  font-family: 'Playfair Display';
+}
+
+button img {
+    height: 40vw;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255);
+}
+
+button:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+    cursor: none;
+}
+
+.paints {
+    display: flex;
+    justify-content:space-around;
+    align-items:baseline;
+    margin-bottom: 10vh; 
+}
+
+.textMona {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 2vw;
+}
+.textVanGogh {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 2vw;
+    max-width: 30vw;
+}
+.textLouis {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 2vw;
+}
+
